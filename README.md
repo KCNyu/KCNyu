@@ -10,5 +10,5 @@
 * 📫 How to reach me **shengyu.li.evgeny@gmail.com**
 
 <!--START_SECTION:zhihu-followers-->
-此行文本之后会被覆盖为“知乎状态”
+获得302次赞同，74次喜欢，562次收藏，400个关注
 <!--END_SECTION:zhihu-followers-->
