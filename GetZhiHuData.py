@@ -33,7 +33,7 @@ print(follows[1].text)  # 关注
 # %%
 
 
-agree, like, collection = re.findall('[0-9,]+', stars[1].text)
+agree, like, collection = re.findall('[0-9,]+', stars[0].text)
 
 zhihu = '获得{}次赞同，{}次喜欢，{}次收藏，{}个关注'.format(agree, like, collection, follows[1].text)
 
