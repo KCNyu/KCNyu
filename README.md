@@ -4,6 +4,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kcnyu&label=Profile%20views&color=0e75b6&style=flat" alt="kcnyu" /> </p>
 
 * 🔭 Working in Chatroulette
+* 👨‍💻 Master of Lomonosov Moscow State University, Department of System Programming, 2022 - 2024
 * 🌱 Worked in Tencent (Intern) 2021
 * 👨‍💻 Bachelor of Computational Mathematics and Cybernetics, Lomonosov Moscow State University, 2018 - 2022 
 
