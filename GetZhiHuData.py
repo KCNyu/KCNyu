@@ -1,41 +1,34 @@
 from bs4 import BeautifulSoup
 import requests
 import re
-import sys
 
-handle = sys.argv[1]
-token = sys.argv[2]
-readmePath = sys.argv[3]
+readmePath = "README.md"
 
-# %%
-# https://github.com/egrcc/zhihu-python
+r = requests.get('https://www.zhihu.com/people/shengyuli')
+soup = BeautifulSoup(r.content, "html.parser")
+stars = soup.find_all(name='div', attrs={'class': 'css-zkfaav'})
+agree, like, collection = 0, 0, 0
+for star in stars:
+    text = star.text
+    if '赞同' in text:
+        agree = re.findall('[0-9,]+', text)[0]
+        break
 
-headers = {
-    'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36",
-    'Host': "www.zhihu.com",
-    'Origin': "http://www.zhihu.com",
-    'Pragma': "no-cache",
-    'Referer': "http://www.zhihu.com/"
-}
-
-url = 'https://www.zhihu.com/people/shengyuli'
-
-r = requests.get(url, headers=headers, verify=False)
-soup = BeautifulSoup(r.content, "lxml")
-
-# %%
-stars = soup.find_all(name='div', attrs={'class': 'css-vurnku'})
-print(stars[1].text)  # 点赞、喜欢、收藏
-
-follows = soup.find_all(name='strong', attrs={'class': 'NumberBoard-itemValue'})
-print(follows[1].text)  # 关注
-
-# %%
+likes = soup.find_all(name='div', attrs={'class': 'css-11cewt9'})
+for like in likes:
+    text = like.text
+    if '喜欢' in text:
+        like, collection = re.findall('[0-9,]+', text)
+        break
 
 
-agree, like, collection = re.findall('[0-9,]+', stars[1].text)
+follows = soup.find_all(name='strong', attrs={
+                        'class': 'NumberBoard-itemValue'})
+follow = follows[1].text
 
-zhihu = '获得{}次赞同，{}次喜欢，{}次收藏，{}个关注'.format(agree, like, collection, follows[1].text)
+zhihu = '获得{}次赞同，{}次喜欢，{}次收藏，{}个关注'.format(
+    agree, like, collection, follow)
+print(zhihu)
 
 with open(readmePath, "r") as readme:
     content = readme.read()
