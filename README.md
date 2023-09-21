@@ -14,7 +14,7 @@
   <summary>💬 More...</summary>
     <a href="https://www.zhihu.com/people/shengyuli">知乎</a>：
 <!--START_SECTION:zhihu-followers-->
-获得773次赞同，163次喜欢，1,108次收藏，1,945个关注
+获得774次赞同，164次喜欢，1,110次收藏，1,946个关注
 <!--END_SECTION:zhihu-followers-->
   <br>
 </details>
