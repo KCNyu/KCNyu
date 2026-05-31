@@ -20,28 +20,8 @@
   <br>
 </details>
 
----
-
-### 🛠️ Tech Stack
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Vim](https://img.shields.io/badge/Vim-019733?style=flat-square&logo=vim&logoColor=white)
-
-### 📌 Featured Projects
-
-- **[db_tutorial_cpp](https://github.com/KCNyu/db_tutorial_cpp)** ⭐ — writing a SQLite clone from scratch in C++
-- **[Program-MSU](https://github.com/KCNyu/Program-MSU)** ⭐ — course guidance for the System Programming dept. (МГУ / SMBU)
-- **[HttpWebServer](https://github.com/KCNyu/HttpWebServer)** — epoll-based multiplexing file-transfer server in C++
-
-### 📊 GitHub Stats
-
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=KCNyu&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=default" alt="KCNyu's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KCNyu&layout=compact&hide_border=true&langs_count=8&theme=default" alt="Top languages" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=KCNyu&show_icons=true&include_all_commits=true&hide_border=true&theme=default" alt="KCNyu's GitHub stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KCNyu&layout=compact&hide_border=true&theme=default" alt="Top languages" />
 </p>
 
