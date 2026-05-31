@@ -27,7 +27,7 @@ jobs:
         env:
           ZHIHU_COOKIE: ${{ secrets.ZHIHU_COOKIE }}
         run: python GetZhiHuData.py
-      - name: Update total stars badge
+      - name: Update stars + followers badges
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -35,11 +35,17 @@ jobs:
             --jq '.[] | select(.fork==false) | .stargazers_count' | awk '{s+=$1} END{print s+0}')
           echo "total stars: $stars"
           sed -i -E "s#(Total%20Stars-)[0-9]+(-)#\1${stars}\2#" README.md
+          # Static followers badge: shields' dynamic github/followers badge intermittently
+          # renders "invalid" when shields' public GitHub token pool is exhausted, so we
+          # bake the count in ourselves (same approach as the stars badge above).
+          followers=$(gh api "/users/${{ github.repository_owner }}" --jq '.followers')
+          echo "followers: $followers"
+          sed -i -E "s#(Followers-)[0-9]+(-)#\1${followers}\2#" README.md
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff-index --quiet HEAD || git commit -m "Update profile stats (zhihu + stars)"
+          git diff-index --quiet HEAD || git commit -m "Update profile stats (zhihu + stars + followers)"
       - name: Push changes
         run: git push
