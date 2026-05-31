@@ -24,6 +24,8 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Update README
+        env:
+          ZHIHU_COOKIE: ${{ secrets.ZHIHU_COOKIE }}
         run: python GetZhiHuData.py
       - name: Commit changes
         run: |

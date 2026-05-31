@@ -7,7 +7,7 @@
 * 👨‍💻 Master of Lomonosov Moscow State University, Department of System Programming, 2022 - 2024
 * 🌱 Worked in Tencent (Intern), 2021
 * 👨‍💻 Bachelor of Computational Mathematics and Cybernetics, Lomonosov Moscow State University, 2018 - 2022 
-* 🐧 **Linux kernel contributor** — authored a [patch merged into the mainline tree (Linux 6.9)](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=72d7cb5c190befbb095bae7737e71560ec0fcaa6) that fixes an infinite loop in the `selftests/harness` `FIXTURE_TEARDOWN` ([commit on GitHub](https://github.com/torvalds/linux/commit/72d7cb5c190befbb095bae7737e71560ec0fcaa6))
+* 🐧 Linux kernel contributor — authored a [patch merged into the mainline tree (Linux 6.9)](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=72d7cb5c190befbb095bae7737e71560ec0fcaa6) that fixes an infinite loop in the `selftests/harness` `FIXTURE_TEARDOWN` ([commit on GitHub](https://github.com/torvalds/linux/commit/72d7cb5c190befbb095bae7737e71560ec0fcaa6))
 
 * 📫 How to reach me **shengyu.li.evgeny@gmail.com**
 
@@ -19,9 +19,4 @@
 <!--END_SECTION:zhihu-followers-->
   <br>
 </details>
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=KCNyu&show_icons=true&include_all_commits=true&hide_border=true&theme=default" alt="KCNyu's GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KCNyu&layout=compact&hide_border=true&theme=default" alt="Top languages" />
-</p>
 

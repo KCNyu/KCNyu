@@ -1,4 +1,5 @@
 import json
+import os
 import re
 import sys
 
@@ -15,7 +16,12 @@ HEADERS = {
         "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     ),
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Referer": "https://www.zhihu.com/",
 }
+
+# A logged-in Zhihu cookie (set as the ZHIHU_COOKIE GitHub secret) lets the
+# request through Zhihu's 403 anti-bot wall for datacenter / CI IP ranges.
+ZHIHU_COOKIE = os.environ.get("ZHIHU_COOKIE", "").strip()
 
 START = "<!--START_SECTION:zhihu-followers-->"
 END = "<!--END_SECTION:zhihu-followers-->"
@@ -37,7 +43,10 @@ def parse_existing(content):
 
 def fetch_counts():
     """Return (agree, like, collection, follower) from Zhihu's embedded initial data."""
-    r = requests.get(PROFILE_URL, headers=HEADERS, timeout=30)
+    headers = dict(HEADERS)
+    if ZHIHU_COOKIE:
+        headers["Cookie"] = ZHIHU_COOKIE
+    r = requests.get(PROFILE_URL, headers=headers, timeout=30)
     r.raise_for_status()
     soup = BeautifulSoup(r.content, "html.parser")
     raw = soup.find("script", id="js-initialData")
