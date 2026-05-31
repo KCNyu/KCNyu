@@ -1,7 +1,11 @@
 <h1 align="center">Hi 👋, I'm Shengyu Li</h1>
 <h3 align="center">back-end developer from China</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=kcnyu&label=Profile%20views&color=0e75b6&style=flat" alt="kcnyu" /> </p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=kcnyu&label=Profile%20views&color=0e75b6&style=flat-square" alt="profile views" />
+  <!--START_SECTION:stars--><img src="https://img.shields.io/badge/Total%20Stars-179-FFD93D?style=flat-square&logo=github&logoColor=white" alt="total stars" /><!--END_SECTION:stars-->
+  <img src="https://img.shields.io/github/followers/KCNyu?label=Followers&style=flat-square&logo=github&logoColor=white&color=0e75b6" alt="followers" />
+</p>
 
 * 🔭 Worked in Chatroulette, 2021 - 2023
 * 👨‍💻 Master of Lomonosov Moscow State University, Department of System Programming, 2022 - 2024

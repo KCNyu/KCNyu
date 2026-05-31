@@ -27,11 +27,19 @@ jobs:
         env:
           ZHIHU_COOKIE: ${{ secrets.ZHIHU_COOKIE }}
         run: python GetZhiHuData.py
+      - name: Update total stars badge
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          stars=$(gh api --paginate "/users/${{ github.repository_owner }}/repos?per_page=100&type=owner" \
+            --jq '.[] | select(.fork==false) | .stargazers_count' | awk '{s+=$1} END{print s+0}')
+          echo "total stars: $stars"
+          sed -i -E "s#(Total%20Stars-)[0-9]+(-)#\1${stars}\2#" README.md
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff-index --quiet HEAD || git commit -m "Update zhihu data"
+          git diff-index --quiet HEAD || git commit -m "Update profile stats (zhihu + stars)"
       - name: Push changes
         run: git push
