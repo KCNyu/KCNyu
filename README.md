@@ -3,8 +3,8 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=kcnyu&label=Profile%20views&color=0e75b6&style=flat-square" alt="profile views" />
-  <!--START_SECTION:stars--><img src="https://img.shields.io/badge/Total%20Stars-177-FFD93D?style=flat-square&logo=github&logoColor=white" alt="total stars" /><!--END_SECTION:stars-->
-  <!--START_SECTION:followers--><img src="https://img.shields.io/badge/Followers-28-0e75b6?style=flat-square&logo=github&logoColor=white" alt="followers" /><!--END_SECTION:followers-->
+  <!--START_SECTION:stars--><img src="https://img.shields.io/badge/Total%20Stars-176-FFD93D?style=flat-square&logo=github&logoColor=white" alt="total stars" /><!--END_SECTION:stars-->
+  <!--START_SECTION:followers--><img src="https://img.shields.io/badge/Followers-29-0e75b6?style=flat-square&logo=github&logoColor=white" alt="followers" /><!--END_SECTION:followers-->
 </p>
 
 * 🔭 Worked in Chatroulette, 2021 - 2023
