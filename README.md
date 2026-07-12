@@ -7,6 +7,11 @@
   <!--START_SECTION:followers--><img src="https://img.shields.io/badge/Followers-30-0e75b6?style=flat-square&logo=github&logoColor=white" alt="followers" /><!--END_SECTION:followers-->
 </p>
 
+<p align="center">
+  <a href="https://kcnyu.github.io/"><img src="https://img.shields.io/badge/Website-kcnyu.github.io-5eead4?style=flat-square&logo=githubpages&logoColor=black" alt="personal website" /></a>
+  <a href="https://www.linkedin.com/in/shengyu-li-01a89321a/"><img src="https://img.shields.io/badge/LinkedIn-Shengyu%20Li-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin" /></a>
+</p>
+
 * 🔭 Worked in Chatroulette, 2021 - 2023
 * 👨‍💻 Master of Lomonosov Moscow State University, Department of System Programming, 2022 - 2024
 * 🌱 Worked in Tencent (Intern), 2021
