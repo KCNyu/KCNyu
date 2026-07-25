@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Shengyu Li</h1>
-<h3 align="center">back-end developer from China</h3>
+<h3 align="center">AI &amp; risk-control builder</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=kcnyu&label=Profile%20views&color=0e75b6&style=flat-square" alt="profile views" />
