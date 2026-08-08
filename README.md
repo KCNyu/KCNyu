@@ -1,4 +1,4 @@
-<h1 align="center">Shengyu Li</h1>
+<h1 align="center">Hi, I'm Shengyu Li</h1>
 <h3 align="center">Systems · AI · Risk</h3>
 
 <p align="center">
