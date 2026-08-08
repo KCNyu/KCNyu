@@ -8,9 +8,9 @@
 
 <p align="center">
   <samp>
-    <a href="https://kcnyu.github.io/">portfolio</a> ·
     <a href="https://github.com/KCNyu/clawock">clawock</a> ·
     <a href="https://www.linkedin.com/in/shengyu-li-01a89321a/">linkedin</a> ·
+    <a href="https://kcnyu.github.io/">profile</a> ·
     <a href="mailto:shengyu.li.evgeny@gmail.com">email</a>
   </samp>
 </p>
