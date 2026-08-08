@@ -1,5 +1,7 @@
-<h1 align="center">Hi, I'm Shengyu Li</h1>
-<h3 align="center">Systems · AI · Risk</h3>
+<h1 align="center">
+  Shengyu Li<br />
+  <sub>Systems · AI · Risk</sub>
+</h1>
 
 <p align="center">
   <!--START_SECTION:stars--><img src="https://img.shields.io/badge/Total%20Stars-181-FFD93D?style=flat-square&amp;logo=github&amp;logoColor=white" alt="total stars" /><!--END_SECTION:stars-->
