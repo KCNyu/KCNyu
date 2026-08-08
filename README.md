@@ -3,6 +3,12 @@
 <p align="center"><strong>Systems · AI · Risk</strong></p>
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=kcnyu&amp;label=Profile%20views&amp;color=64748B&amp;style=flat-square" alt="profile views" />
+  <!--START_SECTION:stars--><img src="https://img.shields.io/badge/Total%20Stars-181-F59E0B?style=flat-square&amp;logo=github&amp;logoColor=white" alt="total stars" /><!--END_SECTION:stars-->
+  <!--START_SECTION:followers--><img src="https://img.shields.io/badge/Followers-31-2563EB?style=flat-square&amp;logo=github&amp;logoColor=white" alt="followers" /><!--END_SECTION:followers-->
+</p>
+
+<p align="center">
   Building auditable systems where AI decisions can be inspected, challenged, and measured.
 </p>
 
@@ -18,11 +24,11 @@
 
 ## Work
 
-**[clawock](https://github.com/KCNyu/clawock)** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![AI agents](https://img.shields.io/badge/AI_agents-4F46E5?style=flat-square) — A self-grading multi-agent investment desk running a real HK + US portfolio in public.
+**[clawock](https://github.com/KCNyu/clawock)** — A self-grading multi-agent investment desk running a real HK + US portfolio in public.
 
-**[torvalds/linux](https://github.com/torvalds/linux)** ![C](https://img.shields.io/badge/C-555555?style=flat-square&logo=c&logoColor=white) ![Linux 6.9](https://img.shields.io/badge/Linux_6.9-FCC624?style=flat-square&logo=linux&logoColor=111111) — A [Linux 6.9 mainline fix](https://github.com/torvalds/linux/commit/72d7cb5c190befbb095bae7737e71560ec0fcaa6) for an infinite loop in the kernel selftest harness.
+**[torvalds/linux](https://github.com/torvalds/linux)** — A [Linux 6.9 mainline fix](https://github.com/torvalds/linux/commit/72d7cb5c190befbb095bae7737e71560ec0fcaa6) for an infinite loop in the kernel selftest harness.
 
-**[db_tutorial_cpp](https://github.com/KCNyu/db_tutorial_cpp)** ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![Database internals](https://img.shields.io/badge/Database_internals-336791?style=flat-square) — A SQLite clone built from scratch in C++ to explore pages, rows, and B-trees.
+**[db_tutorial_cpp](https://github.com/KCNyu/db_tutorial_cpp)** — A SQLite clone built from scratch in C++ to explore pages, rows, and B-trees.
 
 ## Background
 
