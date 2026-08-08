@@ -15,30 +15,32 @@
 
 ## Selected work
 
-<a href="https://kcnyu.github.io/clawock/">
-  <img src="https://raw.githubusercontent.com/KCNyu/clawock/master/assets/social-card.png" width="100%" alt="clawock — AI agents debate; code controls the risk" />
-</a>
-
-<p align="center">
-  <strong>clawock</strong> is a self-grading multi-agent investment desk running a real HK + US portfolio in public.<br />
-  <a href="https://github.com/KCNyu/clawock">Source</a> ·
-  <a href="https://kcnyu.github.io/clawock/">Live dashboard</a> ·
-  <a href="https://github.com/KCNyu/clawock/blob/master/assets/architecture.svg">Architecture</a>
-</p>
-
 <table>
   <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://github.com/KCNyu/clawock">clawock</a> <sub>flagship · live</sub></h3>
+      <p><strong>AI argues. Code settles.</strong></p>
+      <p>A self-grading multi-agent investment desk running a real HK + US portfolio in public, with hard risk gates, a decision ledger, and daily calibration.</p>
+      <p><code>Python</code> <code>AI agents</code> <code>risk systems</code></p>
+      <p>
+        <a href="https://github.com/KCNyu/clawock">Repository</a> ·
+        <a href="https://kcnyu.github.io/clawock/">Live dashboard</a> ·
+        <a href="https://github.com/KCNyu/clawock/blob/master/assets/architecture.svg">Architecture</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=72d7cb5c190befbb095bae7737e71560ec0fcaa6">Linux mainline</a></h3>
+      <h3><a href="https://github.com/torvalds/linux">torvalds/linux</a></h3>
       <p><code>Linux 6.9</code> <code>C</code> <code>selftests</code></p>
       <p>Mainline fix for an infinite loop in the kernel selftest harness's teardown path.</p>
-      <p><a href="https://github.com/torvalds/linux/commit/72d7cb5c190befbb095bae7737e71560ec0fcaa6">View merged patch</a></p>
+      <p><a href="https://github.com/torvalds/linux/commit/72d7cb5c190befbb095bae7737e71560ec0fcaa6">Merged patch</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/KCNyu/db_tutorial_cpp">Database internals</a></h3>
+      <h3><a href="https://github.com/KCNyu/db_tutorial_cpp">db_tutorial_cpp</a></h3>
       <p><code>C++</code> <code>SQLite</code> <code>storage</code></p>
       <p>A SQLite clone built from scratch in C++: pages, rows, and B-trees.</p>
-      <p><a href="https://github.com/KCNyu/db_tutorial_cpp">View repository</a></p>
+      <p><a href="https://github.com/KCNyu/db_tutorial_cpp">Repository</a></p>
     </td>
   </tr>
 </table>
