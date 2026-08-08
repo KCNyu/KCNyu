@@ -8,28 +8,25 @@
 
 <p align="center">
   <samp>
-    <a href="https://github.com/KCNyu/clawock">clawock</a> ·
     <a href="https://www.linkedin.com/in/shengyu-li-01a89321a/">linkedin</a> ·
-    <a href="https://kcnyu.github.io/">profile</a> ·
-    <a href="mailto:shengyu.li.evgeny@gmail.com">email</a>
+    <a href="mailto:shengyu.li.evgeny@gmail.com">email</a> ·
+    <a href="https://kcnyu.github.io/">profile</a>
   </samp>
 </p>
 
 ---
 
-Currently building **[clawock](https://github.com/KCNyu/clawock)**, a
-self-grading multi-agent investment desk running a real HK + US portfolio in
-public. [Live dashboard](https://kcnyu.github.io/clawock/) ·
-[Architecture](https://github.com/KCNyu/clawock/blob/master/assets/architecture.svg)
-
-Contributed a [Linux 6.9 mainline fix](https://github.com/torvalds/linux/commit/72d7cb5c190befbb095bae7737e71560ec0fcaa6)
-to **[torvalds/linux](https://github.com/torvalds/linux)**, and wrote
-**[db_tutorial_cpp](https://github.com/KCNyu/db_tutorial_cpp)** to explore
-database internals from first principles.
-
-Previous engineering experience at Tencent and Chatroulette. M.S. in System
-Programming and B.S. in Computational Mathematics and Cybernetics from
-Lomonosov Moscow State University.
+- Building [clawock](https://github.com/KCNyu/clawock), a self-grading
+  multi-agent investment desk running a real HK + US portfolio in public.
+  [Dashboard](https://kcnyu.github.io/clawock/) ·
+  [Architecture](https://github.com/KCNyu/clawock/blob/master/assets/architecture.svg)
+- Contributed a [Linux 6.9 mainline fix](https://github.com/torvalds/linux/commit/72d7cb5c190befbb095bae7737e71560ec0fcaa6)
+  to [torvalds/linux](https://github.com/torvalds/linux).
+- Wrote [db_tutorial_cpp](https://github.com/KCNyu/db_tutorial_cpp) to explore
+  database internals from first principles.
+- Previously at Tencent and Chatroulette.
+- M.S. in System Programming and B.S. in Computational Mathematics and
+  Cybernetics from Lomonosov Moscow State University.
 
 <details>
   <summary><strong>Zhihu</strong> · profile and writing</summary>
