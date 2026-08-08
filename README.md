@@ -6,9 +6,6 @@
 <p align="center">
   <!--START_SECTION:stars--><img src="https://img.shields.io/badge/Total%20Stars-181-FFD93D?style=flat-square&amp;logo=github&amp;logoColor=white" alt="total stars" /><!--END_SECTION:stars-->
   <!--START_SECTION:followers--><img src="https://img.shields.io/badge/Followers-31-0e75b6?style=flat-square&amp;logo=github&amp;logoColor=white" alt="followers" /><!--END_SECTION:followers-->
-</p>
-
-<p align="center">
   <a href="https://kcnyu.github.io/"><img src="https://img.shields.io/badge/Website-kcnyu.github.io-5eead4?style=flat-square&amp;logo=githubpages&amp;logoColor=black" alt="personal website" /></a>
   <a href="https://www.linkedin.com/in/shengyu-li-01a89321a/"><img src="https://img.shields.io/badge/LinkedIn-Shengyu%20Li-0A66C2?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="linkedin" /></a>
 </p>
