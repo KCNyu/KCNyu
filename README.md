@@ -13,6 +13,7 @@
 ---
 
 - Building [clawock](https://github.com/KCNyu/clawock), a self-grading multi-agent investment desk running a real HK + US portfolio in public.
+- Contributed to [OpenInference PR #3591](https://github.com/Arize-ai/openinference/pull/3591), improving Google ADK instrumentation by avoiding redundant request-attribute derivation across streaming chunks.
 - Linux kernel contributor — authored a [fix merged into Linux 6.9](https://github.com/torvalds/linux/commit/72d7cb5c190befbb095bae7737e71560ec0fcaa6) for an infinite loop in the selftest harness.
 - Built [db_tutorial_cpp](https://github.com/KCNyu/db_tutorial_cpp), a SQLite clone in C++ exploring pages, rows, and B-trees.
 
