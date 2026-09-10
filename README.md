@@ -16,21 +16,23 @@
 
 ---
 
-I work on systems programming, AI infrastructure, and software for making complex decisions more observable and auditable.
+My background is in systems programming and backend engineering. I’m interested in AI infrastructure and software that makes complex decisions more observable and auditable.
 
 ## Experience
-
-**Now** · Building [clawock](https://github.com/KCNyu/clawock), an agent-driven investment desk for a real HK + US portfolio.
 
 **2021–2023** · Worked at Chatroulette.
 
 **2021** · Software engineering intern at Tencent.
 
+## Personal projects
+
+- **[clawock](https://github.com/KCNyu/clawock)** · An independent agent-driven investment desk for a real HK + US portfolio.
+- **[db_tutorial_cpp](https://github.com/KCNyu/db_tutorial_cpp)** · A SQLite clone built from scratch in C++, exploring pages, rows, and B-trees.
+
 ## Selected open source
 
 - **[OpenInference](https://github.com/Arize-ai/openinference/pull/3591)** · Optimized Google ADK instrumentation by deriving request attributes once per streamed span instead of once per chunk.
 - **[Linux kernel](https://github.com/torvalds/linux/commit/72d7cb5c190befbb095bae7737e71560ec0fcaa6)** · Authored a selftest harness fix merged into Linux 6.9, preventing an infinite loop.
-- **[db_tutorial_cpp](https://github.com/KCNyu/db_tutorial_cpp)** · A SQLite clone built from scratch in C++, exploring pages, rows, and B-trees.
 
 ## Education
 
