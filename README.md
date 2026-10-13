@@ -11,7 +11,7 @@
 
 <p align="center">
   <!--START_SECTION:stars--><img src="https://img.shields.io/badge/Total%20Stars-191-FFD93D?style=flat-square&amp;logo=github&amp;logoColor=white" alt="total stars" /><!--END_SECTION:stars-->
-  <!--START_SECTION:followers--><img src="https://img.shields.io/badge/Followers-31-0e75b6?style=flat-square&amp;logo=github&amp;logoColor=white" alt="followers" /><!--END_SECTION:followers-->
+  <!--START_SECTION:followers--><img src="https://img.shields.io/badge/Followers-33-0e75b6?style=flat-square&amp;logo=github&amp;logoColor=white" alt="followers" /><!--END_SECTION:followers-->
 </p>
 
 I focus on payments, risk and AI systems: software that makes high-stakes decisions observable and auditable. My background is in systems programming.
